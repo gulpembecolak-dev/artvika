@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Studio Artvika — Art Workshops in Norway</title>
+  <meta name="description" content="Paper flowers, stained glass painting, linocut, and traditional Ebru water marbling workshops by Zehra Nur in Maura/Oslo, Norway. Creativity that connects communities." />
+  <meta property="og:title" content="Studio Artvika — Art Workshops" />
+  <meta property="og:description" content="Paper flowers, stained glass painting, and ebru workshops in Norway." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#top" class="nav-logo">
+        <span class="logo-text">Studio</span>
+        <span class="logo-accent">Artvika</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#workshops">Workshops</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#instagram">Instagram</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://www.instagram.com/artvika.no/" target="_blank" rel="noopener" class="nav-social">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <header class="hero" id="top">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Maura / Oslo, Norway</p>
+      <h1 class="hero-title">
+        Art Workshops<br /><span class="hero-title-accent">Studio</span>
+      </h1>
+      <p class="hero-subtitle">Creativity that connects communities.<br/>🌼 By Zehra Nur — Paper Artist</p>
+      <div class="hero-actions">
+        <a href="#workshops" class="hero-cta">
+          Pick Your Workshop
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+        <a href="#events" class="hero-cta hero-cta--outline">
+          Upcoming Events
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </header>
+
+  <!-- ========== WORKSHOPS ========== -->
+  <section class="workshops" id="workshops">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Our Workshops</p>
+        <h2 class="section-title">Pick Your Workshop</h2>
+        <p class="section-subtitle">Every workshop is a welcoming space to learn, make, and connect.</p>
+      </div>
+      <div class="workshop-grid">
+        <!-- Card 1 -->
+        <article class="workshop-card" data-animate>
+          <div class="card-image">
+            <img src="images/paper-flowers.png" alt="Paper Flower Workshop" loading="lazy" />
+            <div class="card-image-overlay"></div>
+          </div>
+          <div class="card-content">
+            <span class="card-number">01</span>
+            <h3 class="card-title">Paper Flower Workshop</h3>
+            <p class="card-desc">Craft blooms that never fade. Shape, curl, and color premium crepe to build a bespoke bouquet — sustainable, joyful, and made by you.</p>
+            <a href="#events" class="card-link">See Upcoming Dates →</a>
+          </div>
+        </article>
+        <!-- Card 2 -->
+        <article class="workshop-card" data-animate>
+          <div class="card-image">
+            <img src="images/stained-glass.png" alt="Stained Glass Painting" loading="lazy" />
+            <div class="card-image-overlay"></div>
+          </div>
+          <div class="card-content">
+            <span class="card-number">02</span>
+            <h3 class="card-title">Stained Glass Painting</h3>
+            <p class="card-desc">Design luminous motifs with rich glass paints. Learn line work, layering, and finishing to bring vibrant light and color into your space.</p>
+            <a href="#events" class="card-link">See Upcoming Dates →</a>
+          </div>
+        </article>
+        <!-- Card 3 -->
+        <article class="workshop-card" data-animate>
+          <div class="card-image">
+            <img src="images/ebru-marbling.png" alt="Traditional Water Marbling — Ebru" loading="lazy" />
+            <div class="card-image-overlay"></div>
+          </div>
+          <div class="card-content">
+            <span class="card-number">03</span>
+            <h3 class="card-title">Traditional Ebru</h3>
+            <p class="card-desc">Guide pigments across water to create one-of-a-kind marbled patterns. Slow, meditative, and endlessly surprising.</p>
+            <a href="#events" class="card-link">See Upcoming Dates →</a>
+          </div>
+        </article>
+        <!-- Card 4 - New from Instagram -->
+        <article class="workshop-card" data-animate>
+          <div class="card-image">
+            <img src="images/gallery-ebru-2.png" alt="Linocut Workshop — Lino Trykk" loading="lazy" />
+            <div class="card-image-overlay"></div>
+            <span class="card-badge">New!</span>
+          </div>
+          <div class="card-content">
+            <span class="card-number">04</span>
+            <h3 class="card-title">Linocut — Lino Trykk</h3>
+            <p class="card-desc">Carve and print your own linocut art. Learn the tactile craft of relief printing in a relaxed workshop evening.</p>
+            <a href="#events" class="card-link">See Upcoming Dates →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image" data-animate>
+          <img src="images/studio-interior.png" alt="Studio Artvika interior" loading="lazy" />
+          <div class="about-image-accent"></div>
+        </div>
+        <div class="about-content" data-animate>
+          <p class="section-eyebrow">About the Artist</p>
+          <h2 class="section-title">Zehra Nur — Paper Artist</h2>
+          <p class="about-text">🌼 From paper flowers to stained glass, linocut, and water marbling — every workshop is a welcoming space to learn, make, and connect. Studio Artvika celebrates traditional craft techniques brought to life in a modern, cozy setting.</p>
+          <p class="about-text">Based in Maura / Oslo, Norway, the studio offers intimate, hands-on workshops and events. Whether you're a curious beginner or a seasoned crafter, you'll find creativity and community here.</p>
+          <div class="about-tags">
+            <span class="tag">🌸 Flowers</span>
+            <span class="tag">🎨 Workshops</span>
+            <span class="tag">🖼️ Products</span>
+            <span class="tag">📍 Oslo</span>
+          </div>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number">4</span>
+              <span class="stat-label">Workshop Types</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">∞</span>
+              <span class="stat-label">Creative Possibilities</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EVENTS CALENDAR ========== -->
+  <section class="events" id="events">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Upcoming</p>
+        <h2 class="section-title">Events &amp; Workshops Calendar</h2>
+        <p class="section-subtitle">Book your spot in our upcoming workshops. Limited seats — register early!</p>
+      </div>
+
+      <!-- Calendar View -->
+      <div class="calendar-wrapper" data-animate>
+        <div class="calendar-header">
+          <button class="cal-nav" id="calPrev" aria-label="Previous month">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+          <h3 class="cal-month-year" id="calMonthYear"></h3>
+          <button class="cal-nav" id="calNext" aria-label="Next month">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+        <div class="calendar-grid">
+          <div class="cal-day-label">Mon</div>
+          <div class="cal-day-label">Tue</div>
+          <div class="cal-day-label">Wed</div>
+          <div class="cal-day-label">Thu</div>
+          <div class="cal-day-label">Fri</div>
+          <div class="cal-day-label">Sat</div>
+          <div class="cal-day-label">Sun</div>
+          <div id="calDays"></div>
+        </div>
+      </div>
+
+      <!-- Event Cards -->
+      <div class="events-list" id="eventsList">
+        <!-- JS will populate this -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== REGISTRATION MODAL ========== -->
+  <div class="modal-overlay" id="registrationModal">
+    <div class="modal">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+      <div class="modal-header">
+        <span class="modal-badge" id="modalBadge"></span>
+        <h3 class="modal-title" id="modalTitle"></h3>
+        <p class="modal-date" id="modalDate"></p>
+      </div>
+      <form class="registration-form" id="registrationForm">
+        <div class="form-group">
+          <label for="regName">Full Name <span class="required">*</span></label>
+          <input type="text" id="regName" name="name" required placeholder="Your full name" />
+        </div>
+        <div class="form-group">
+          <label for="regEmail">Email <span class="required">*</span></label>
+          <input type="email" id="regEmail" name="email" required placeholder="your@email.com" />
+        </div>
+        <div class="form-group">
+          <label for="regPhone">Phone</label>
+          <input type="tel" id="regPhone" name="phone" placeholder="+47 ..." />
+        </div>
+        <div class="form-group">
+          <label for="regParticipants">Number of Participants</label>
+          <select id="regParticipants" name="participants">
+            <option value="1">1 person</option>
+            <option value="2">2 people</option>
+            <option value="3">3 people</option>
+            <option value="4">4 people</option>
+            <option value="5">5+ people</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="regMessage">Message (optional)</label>
+          <textarea id="regMessage" name="message" rows="3" placeholder="Any special requests or questions?"></textarea>
+        </div>
+        <div class="form-actions">
+          <button type="submit" class="btn-primary" id="btnRegister">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            Register Now
+          </button>
+          <a href="#" class="btn-google-cal" id="btnGoogleCal" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            Add to Google Calendar
+          </a>
+        </div>
+      </form>
+      <div class="form-success" id="formSuccess" style="display:none;">
+        <div class="success-icon">✓</div>
+        <h4>Registration Successful!</h4>
+        <p>We'll send a confirmation to your email. See you at the workshop!</p>
+        <a href="#" class="btn-google-cal" id="btnGoogleCalSuccess" target="_blank" rel="noopener">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Add to Google Calendar
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== GALLERY ========== -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">Portfolio</p>
+        <h2 class="section-title">Selected Works</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item--tall" data-animate>
+          <img src="images/paper-flowers.png" alt="Paper flower arrangement" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Paper Flowers</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-animate>
+          <img src="images/stained-glass.png" alt="Stained glass artwork" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Stained Glass</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-animate>
+          <img src="images/ebru-marbling.png" alt="Ebru water marbling" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Ebru Marbling</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide" data-animate>
+          <img src="images/studio-interior.png" alt="Studio Artvika workshop" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Workshop Session</span>
+          </div>
+        </div>
+        <div class="gallery-item" data-animate>
+          <img src="images/gallery-flowers-2.png" alt="Paper roses close-up" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Paper Roses</span>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--tall" data-animate>
+          <img src="images/gallery-ebru-2.png" alt="Ebru art finished piece" loading="lazy" />
+          <div class="gallery-overlay">
+            <span>Ebru Art</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== INSTAGRAM FEED ========== -->
+  <section class="instagram-feed" id="instagram">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-eyebrow">@artvika.no</p>
+        <h2 class="section-title">Follow Us on Instagram</h2>
+        <p class="section-subtitle">See our latest creations, workshop moments, and behind-the-scenes glimpses.</p>
+      </div>
+      <div class="insta-grid">
+        <!-- Post 1 - Workshop scene -->
+        <a href="https://www.instagram.com/artvika.no/" target="_blank" rel="noopener" class="insta-post" data-animate>
+          <img src="images/paper-flowers.png" alt="Paper flower workshop at Studio Artvika" loading="lazy" />
+          <div class="insta-overlay">
+            <div class="insta-overlay-content">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+              <span>Paper Flower Bouquets</span>
+            </div>
+          </div>
+        </a>
+        <!-- Post 2 - Atelier -->
+        <a href="https://www.instagram.com/artvika.no/" target="_blank" rel="noopener" class="insta-post" data-animate>
+          <img src="images/studio-interior.png" alt="Cozy atelier atmosphere" loading="lazy" />
+          <div class="insta-overlay">
+            <div class="insta-overlay-content">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+              <span>"Cold outside, warm inside"</span>
+            </div>
+          </div>
+        </a>
+        <!-- Post 3 - Lino Trykk -->
+        <a href="https://www.instagram.com/artvika.no/" target="_blank" rel="noopener" class="insta-post insta-post--video" data-animate>
+          <img src="images/stained-glass.png" alt="Lino Trykk workshop reel" loading="lazy" />
+          <div class="insta-overlay">
+            <div class="insta-overlay-content">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+              <span>Lino Trykk — Workshop Reel</span>
+            </div>
+          </div>
+          <div class="insta-video-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+          </div>
+        </a>
+        <!-- Post 4 -->
+        <a href="https://www.instagram.com/artvika.no/" target="_blank" rel="noopener" class="insta-post" data-animate>
+          <img src="images/gallery-flowers-2.png" alt="Forever bouquets by Zehra Nur" loading="lazy" />
+          <div class="insta-overlay">
+            <div class="insta-overlay-content">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+              <span>Forever Bouquets ✨</span>
+            </div>
+          </div>
+        </a>
+        <!-- Post 5 -->
+        <a href="https://www.instagram.com/artvika.no/" target="_blank" rel="noopener" class="insta-post" data-animate>
+          <img src="images/ebru-marbling.png" alt="Ebru marbling close-up" loading="lazy" />
+          <div class="insta-overlay">
+            <div class="insta-overlay-content">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+              <span>Ebru Art Session</span>
+            </div>
+          </div>
+        </a>
+        <!-- Post 6 -->
+        <a href="https://www.instagram.com/artvika.no/" target="_blank" rel="noopener" class="insta-post" data-animate>
+          <img src="images/gallery-ebru-2.png" alt="Workshop evening" loading="lazy" />
+          <div class="insta-overlay">
+            <div class="insta-overlay-content">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="white"><path d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z"/></svg>
+              <span>Workshop Evening</span>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="insta-cta">
+        <a href="https://www.instagram.com/artvika.no/" target="_blank" rel="noopener" class="btn-instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          Follow @artvika.no
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT / FOOTER ========== -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h2 class="footer-logo">
+            <span class="logo-text">Studio</span>
+            <span class="logo-accent">Artvika</span>
+          </h2>
+          <p class="footer-tagline">Creativity that connects communities.</p>
+          <p class="footer-artist">🌼 Zehra Nur — Paper Artist</p>
+        </div>
+        <div class="footer-contact">
+          <h3>Get in Touch</h3>
+          <p><strong>Location</strong><br />Maura / Oslo, Norway</p>
+          <p><strong>Email</strong><br /><a href="mailto:studioartvika7@gmail.com">studioartvika7@gmail.com</a></p>
+        </div>
+        <div class="footer-nav">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#workshops">Workshops</a></li>
+            <li><a href="#events">Events Calendar</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#instagram">Instagram Feed</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <a href="https://www.instagram.com/artvika.no/" target="_blank" rel="noopener" class="social-link">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            <span>@artvika.no</span>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Studio Artvika. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========== LIGHTBOX ========== -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close lightbox">&times;</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
